@@ -15,6 +15,7 @@ My Schedule
   margin: 0 auto;
   width: 75%;
   font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 6px #000000;
 }
 
 .day,
@@ -26,6 +27,10 @@ My Schedule
   text-align: center;
 }
 
+.class {
+	background-color: white;
+}
+
 .day {
   background-color: lightblue;
   font-weight: bold;
@@ -33,18 +38,26 @@ My Schedule
 
 .time {
   background-color: lightgray;
+  font-weight: bold;
 }
 
 .timebox {
 	background-color: darkgray;
 	color: white;
+	font-weight: bold;
 }
 
 
 h1 {
-	background-color: gray;
+	display:block;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	margin-bottom: 100px;
 	font-size: 46px;
+	text-shadow: 0 0 6px #000000;
+	color: white; 
+}
+
+body {
+  background-image: url('image1.png');
 }
